@@ -3,7 +3,7 @@ Unsupervised anomaly detection for model-independent new physics searches, using
 
 ## Data & Features
 
-- **Dataset**: LHC Olympics 2020 R&D dataset (high-level jet features), a public benchmark for anomaly detection at the LHC. [arXiv:2101.08320v1](https://arxiv.org/abs/2101.08320)
+- **Dataset**: LHC Olympics 2020 R&D dataset (high-level jet features), a public benchmark for anomaly detection at the LHC. [arXiv:2101.08320v1](https://arxiv.org/abs/2101.08320) [events_anomalydetection_v2.features.h5](https://zenodo.org/records/6466204)
 - **Features**: per-jet mass, n-subjettiness ratios (τ21, τ32), transverse momentum, and other substructure observables; deliberately excluded dijet invariant mass (mjj) as a training input, since that's the variable used to define the signal region.
 - **Setup**: model trained only on background-like events from a sideband region in mjj; evaluated on the signal region, where true labels are used only for evaluation.
 
