@@ -1,6 +1,5 @@
 # Variational-Autoencoders-for-New-Physics-Searches-in-Particle-Physics-Data
 Unsupervised anomaly detection for model-independent new physics searches, using the LHC Olympics 2020 R&D dataset.
-Learning project, referring to [Model-agnostic search for dijet resonances with anomalous jet substructure in proton–proton collisions](https://iopscience.iop.org/article/10.1088/1361-6633/add762/pdf)
 
 ## Data & Features
 
